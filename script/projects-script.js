@@ -14,10 +14,10 @@ function newTitle(parent, name, img) {
  }
 
 const research = document.getElementById("research");
-newTitle(research, "Research", "./other/medal.png");
+newTitle(research, "Research", "./images/medal.png");
 
 const robotics = document.getElementById("robotics");
-newTitle(robotics, "Robotics", "./other/robot.png");
+newTitle(robotics, "Robotics", "./images/robot.png");
 
 const webDesign = document.getElementById("web-design");
-newTitle(webDesign, "Web Design", "./other/brackets.png");
+newTitle(webDesign, "Web Design", "./images/brackets.png");
