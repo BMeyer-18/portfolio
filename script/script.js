@@ -30,6 +30,7 @@ const makeFooter = () => {
 
     const a = document.createElement("a");
     a.setAttribute("href", "https://github.com/BMeyer-18/portfolio");
+    a.setAttribute("target", "_blank");
     a.appendChild(h4);
 
     const div = document.createElement("div");
