@@ -14,4 +14,4 @@ function newTitle(parent, name, img) {
 }
 
 const research = document.getElementById("research");
-newTitle(research, "Research", "./other/medal.png");
+newTitle(research, "Research", "./images/medal.png");
