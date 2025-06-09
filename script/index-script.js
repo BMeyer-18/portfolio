@@ -1,6 +1,6 @@
 const INFO = '{ "headings": [ "What have I made?", "What can I do?", "Where can I be found?" ],' +
     '"bodies": [ "My projects include award-winning artificial intelligence research, programming for FIRST robotics, and the website that you are on right now.<br>Read more here!", "I am proficient in Java, Python, HTML, CSS, JavaScript, and more.<br>Find my resume here!", "Please feel free to reach out.<br>Find my contact information here!" ],' +
-    '"srcs": [ "./other/pencil.png", "./other/paper.png", "./other/envelope.png" ],' +
+    '"srcs": [ "./images/pencil.png", "./images/paper.png", "./images/envelope.png" ],' +
     '"hrefs": [ "./projects.html", "./skills.html", "./contact.html" ] }';
 
 const addSection = (row, heading, text, link, imgLink) => {
@@ -26,7 +26,7 @@ const addSection = (row, heading, text, link, imgLink) => {
     image.setAttribute("src", imgLink);
     image.setAttribute("style", "margin-top: 50px");
 
-    if(imgLink === "./other/envelope.png"){
+    if(imgLink === "./images/envelope.png"){
         image.setAttribute("height", "100px");
     } else {
         image.setAttribute("height", "150px");
