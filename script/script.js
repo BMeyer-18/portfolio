@@ -41,7 +41,7 @@ const makeFooter = () => {
     footer.appendChild(div);
 }
 
-addToNav("", "./index.html", "/BMeyer-18/portfolio/images/BM_logo.png", "45px");
+addToNav("", "./index.html", "BMeyer-18/portfolio/images/BM_logo.png", "45px");
 addToNav("Projects", "./projects.html", "./images/pencil.png", "40px");
 addToNav("Resume", "./skills.html", "./images/paper.png", "35px");
 addToNav("Contact", "./contact.html", "./images/envelope.png", "20px");
