@@ -19,7 +19,7 @@ const addToNav = (name, href, src, height) => {
 
 const makeFooter = () => {
     const img = document.createElement("img");
-    img.setAttribute("src", "./other/BM_logo.png");
+    img.setAttribute("src", "./images/BM_logo.png");
     img.setAttribute("height", "80px");
 
     const h2 = document.createElement("h2");
@@ -41,9 +41,9 @@ const makeFooter = () => {
     footer.appendChild(div);
 }
 
-addToNav("", "./index.html", "./other/BM_logo.png", "45px");
-addToNav("Projects", "./projects.html", "./other/pencil.png", "40px");
-addToNav("Resume", "./skills.html", "./other/paper.png", "35px");
-addToNav("Contact", "./contact.html", "./other/envelope.png", "20px");
+addToNav("", "./index.html", "./images/BM_logo.png", "45px");
+addToNav("Projects", "./projects.html", "./images/pencil.png", "40px");
+addToNav("Resume", "./skills.html", "./images/paper.png", "35px");
+addToNav("Contact", "./contact.html", "./images/envelope.png", "20px");
 
 makeFooter();
