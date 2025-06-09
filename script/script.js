@@ -43,7 +43,7 @@ const makeFooter = () => {
 
 addToNav("", "./index.html", "./images/BM_logo.png", "45px");
 addToNav("Projects", "./projects.html", "./images/pencil.png", "40px");
-addToNav("Resume", "./skills.html", "./images/paper.png", "35px");
+addToNav("Resume", "https://drive.google.com/file/d/1ODELvDwW8sN6jmlFL6SXkS5bKmbPWluf/view?usp=sharing", "./images/paper.png", "35px");
 addToNav("Contact", "./contact.html", "./images/envelope.png", "20px");
 
 makeFooter();
