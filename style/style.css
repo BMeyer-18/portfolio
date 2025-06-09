@@ -33,6 +33,6 @@ footer {
     justify-content: center;
 }
 
-a {
-    color: blue;
-}
+a { color: blue; }
+
+.inner-text { margin: 0 10px 10px 10px; }
