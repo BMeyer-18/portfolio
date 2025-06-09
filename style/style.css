@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    background-color: navy;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: "Alumni Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#name {
+    color: aqua;
+    text-align: center;
+}
+
+@media(width < 2220px) and (height > 1000px) {
+    #name { font-size: 4vw }
+}
+
+@media(width >= 2220px) and (height > 1000px) {
+    #name { font-size: 90px }
+}
+
+@media (width > 1400px) {
+    #portrait { height: 100% }
+    header { height: 65.5vh }
+}
+
+@media (width <= 1400px) {
+    #portrait { height: 100% }
+    header { height: 65.5vw }
+}
+
+@media (height <= 1000px) {
+    #portrait { height: 100% }
+    header { font-size: 7.5vh }
+}
+
+h1 {
+    text-align: center;
+}
+
+.textbox {
+    border: solid 5px black;
+    margin: 30px 15% 30px 15%;
+    width: 70%;
+    background-color: blue;
+    text-align: center;
+    text-justify: inter-word;
+    color: white;
+}
+
+#summary {
+    display: grid;
+    grid-template: repeat(3, auto) / 1fr 50% 50px 200px 1fr;
+}
+
+.inner-text {
+    margin: 0 10px 10px 10px;
+}
