@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap');
+
+body {
+    background-color: royalblue;
+    font-family: "Playpen Sans Hebrew", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px black;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px navy;
+    border-top: solid 4px navy;
+    margin-top: 30px;
+    background-color: rgb(116, 143, 224);
+    height: 100px;
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: blue;
+}
