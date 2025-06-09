@@ -1,15 +1,44 @@
- header {
-    border: solid 4px black;
-    /*margin-top: 50px;*/
+header {
+    border: solid 4px blue;
+    margin-top: 50px;
     width: 300px;
-    margin: 50px 0 0 0;
+    background-color: #007FFF;
 
     display: flex;
     flex-direction: column;
     align-items: center;
- }
+}
 
- #research {
+ #research, #robotics, #web-design {
    display: flex;
    justify-content: center;
  }
+
+ .grid {
+    display: grid;
+ }
+
+ @media (width >= 1000px) {
+    .grid { grid-template: repeat(3, auto) / 1fr 400px 50px 50% 1fr; }
+  }
+
+ @media (width < 1000px) {
+  .grid { grid-template: repeat(3, auto) / 1fr 40% 50px 50% 1fr; }
+ }
+
+ .textbox {
+    border: solid 5px black;
+    border-radius: 30px;
+    margin: 30px 15% 30px 15%;
+    width: 70%;
+    background-color: blueviolet;
+    text-align: center;
+    text-justify: inter-word;
+    color: white;
+}
+
+.figure {
+  width: 100%;
+  border: solid black 3px;
+  border-radius: 40px;
+}
